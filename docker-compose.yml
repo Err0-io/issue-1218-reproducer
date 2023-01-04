@@ -1,0 +1,7 @@
+version: '3'
+services:
+  postgres:
+    build: docker/database
+    image: err0_io:issue_1218
+    ports:
+      - "5555:5555"

@@ -1,0 +1,15 @@
+= Issue-1218-reproducer
+
+- to start postgresql on port 5555 user postgres password password
+```
+$ ./docker-start.sh
+```
+
+== Building
+
+To launch your tests:
+```
+./mvnw clean test
+```
+
+Should freeze, neither error with an exception nor complete.
